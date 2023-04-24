@@ -1,4 +1,5 @@
 import './App.css';
+import ProjectSection from './components/ProjectSection';
 
 function App() {
   return (
@@ -7,14 +8,17 @@ function App() {
         <p>
           Hi, This is my personal portfolio.
         </p>
-        <a
-          className="App-link"
-          href="https://github.com/davidhelo"
-          target="_blank"
-        >
-          See GitHub profile
-        </a>
       </header>
+      <p>Project experience:</p>
+      <ProjectSection />
+      
+      <a
+        className="App-link"
+        href="https://github.com/davidhelo"
+        target="_blank"
+      >
+        See GitHub profile
+      </a>
     </div>
   );
 }

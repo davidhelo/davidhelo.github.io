@@ -1,23 +1,51 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #272938;
+  font-size: calc(10px + 3vmin);
+  color: white;
+  scroll-behavior: smooth;
 }
 
 .App-header {
-  background-color: #272938;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
+.App-link, .project-link {
   color: #71e0ff;
+}
+
+.projectTile {
+  border: 1px solid black;
+  padding: 0.85em;
+  border-radius: 2%;
+  max-width: 360px;
+}
+
+.projectTile .description {
+  font-size: 0.8em;
+}
+
+.projectTile .preview {
+  max-width: 75%;
+  max-height: 50%;
+  border-radius: 5% 3%;
+  border: 2px solid grey;
+}
+
+.projectTile .preview:hover {
+  border: 3px solid rgb(117, 117, 247);
+}
+
+.projectSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 5px 0px 5px 0px;
 }
