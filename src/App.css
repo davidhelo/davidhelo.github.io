@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
   background-color: #272938;
@@ -20,9 +24,10 @@
 
 .projectTile {
   border: 1px solid black;
-  padding: 0.85em;
+  padding: 0em;
+  margin: 1rem;
   border-radius: 2%;
-  max-width: 360px;
+  max-width: 300px;
 }
 
 .projectTile .description {
@@ -30,10 +35,8 @@
 }
 
 .projectTile .preview {
-  max-width: 75%;
-  max-height: 50%;
-  border-radius: 5% 3%;
-  border: 2px solid grey;
+  max-width: 99%;
+  border-radius: 2%;
 }
 
 .projectTile .preview:hover {
@@ -42,9 +45,12 @@
 
 .projectSection {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
   width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-style: dashed;
   border-color: black;
   border-width: 5px 0px 5px 0px;
