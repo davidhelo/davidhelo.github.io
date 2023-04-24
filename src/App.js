@@ -9,7 +9,7 @@ function App() {
           Hi, This is my personal portfolio.
         </p>
       </header>
-      <p>Project experience:</p>
+      <p>Projects experience:</p>
       <ProjectSection />
       
       <a
@@ -19,6 +19,8 @@ function App() {
       >
         See GitHub profile
       </a>
+      <p>*The current portfolio is still in development.</p>
+      <br></br>
     </div>
   );
 }

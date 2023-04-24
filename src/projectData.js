@@ -2,8 +2,9 @@ const projectDataBank = [
     {
         title: "Business webpage: Cosmetología",
         image: "/images/projectImage.png",
-        description: "Webpage created for a small business. blabsdl kadfjsj kldfsk djfksdjfk ksdjfsk dhfnjkern nrbtjerg fjge rjrbge rgjerb erf",
-        liveLink: "https://codepen.io/davidhelo/full/YzQQgxx"
+        description: "Webpage created for a small business. Cosmetology. Beauty and skincare.",
+        liveLink: "http://github.com/davidhelo"
+        //liveLink: "https://codepen.io/davidhelo/full/YzQQgxx"
     },
     {
         title: "To do App",
