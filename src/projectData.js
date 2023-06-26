@@ -2,55 +2,30 @@ const projectDataBank = [
     {
         title: "Business Webpage",
         subtitle: "Spa Business Webpage",
-        image: "/images/projectImage.png",
-        description: "Webpage created for a small business. Cosmetology. Beauty and skincare.",
+        image: "/images/Cosmelh-logo.png",
+        description: "Responsive Webpage for a small business. Cosmetology. Beauty and skincare.",
         liveLink: "",
-        //liveLink: "https://codepen.io/davidhelo/full/YzQQgxx"
-        githubLink: "http://github.com/davidhelo"
+        liveLink: "https://davidhelo.github.io/project-cosme",
+        githubLink: "https://github.com/davidhelo/project-cosme"
     },
     {
         title: "React App",
         subtitle: "To Do List App",
-        image: "/images/projectImage.png",
-        description: "To-Do React App 2.",
+        image: "/images/usercard.png",
+        description: "React app: To-Do List. Add, mark as done or delete task in a tasks manager fully build with React Framework.",
         liveLink: "http://github.com/davidhelo",
-        githubLink: "http://github.com/davidhelo"
+        githubLink: "https://github.com/davidhelo/tasks_app"
     },
     {
         title: "Web Scraper",
-        image: "/images/projectImage.png",
-        description: "Web page 3, Landing product.",
-        liveLink: "http://github.com/davidhelo",
-        githublink: ""
+        image: "/images/usercard.png",
+        description: "Webscraper using Python and Scrapy Framework to scrap a Book Store. Items and pipelines were created to organise the information in JSON file.",
+        liveLink: "",
+        githublink: "http://github.com/davidhelo/webscraper/"
     },
     {
         title: "Landing product",
-        image: "/images/projectImage.png",
-        description: "Web page 3, Landing product.",
-        liveLink: "http://github.com/davidhelo"
-    },
-    {
-        title: "Business webpage: Cosmetología",
-        image: "/images/projectImage.png",
-        description: "Webpage created for a small business. Cosmetology. Beauty and skincare.",
-        liveLink: "http://github.com/davidhelo"
-        //liveLink: "https://codepen.io/davidhelo/full/YzQQgxx"
-    },
-    {
-        title: "To do App",
-        image: "/images/projectImage.png",
-        description: "To-Do React App 2.",
-        liveLink: "http://github.com/davidhelo"
-    },
-    {
-        title: "Landing product",
-        image: "/images/projectImage.png",
-        description: "Web page 3, Landing product.",
-        liveLink: "http://github.com/davidhelo"
-    },
-    {
-        title: "Landing product",
-        image: "/images/projectImage.png",
+        image: "/images/usercard.png",
         description: "Web page 3, Landing product.",
         liveLink: "http://github.com/davidhelo"
     }
