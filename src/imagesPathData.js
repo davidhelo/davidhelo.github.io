@@ -20,6 +20,10 @@ const imagesPathData = [
         src: "/images/reactjs-logo.png",
     },
     {
+        alt: "git-logo",
+        src: "/images/git-logo.png",
+    },
+    {
         alt: "sql-logo",
         src: "/images/sql-logo.png",
     },
