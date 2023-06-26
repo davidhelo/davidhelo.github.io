@@ -1,12 +1,12 @@
 const projectDataBank = [
     {
-        title: "Business Webpage",
-        subtitle: "Spa Business Webpage",
-        image: "/images/Cosmelh-logo.png",
-        description: "Responsive Webpage for a small business. Cosmetology. Beauty and skincare.",
+        title: "Survey webpage",
+        subtitle: "Survey form Webpage",
+        image: "/images/surveypic.png",
+        description: "Responsive webpage Sruvey with field validation using HTML and CSS.",
         liveLink: "",
-        liveLink: "https://davidhelo.github.io/project-cosme",
-        githubLink: "https://github.com/davidhelo/project-cosme"
+        liveLink: "https://davidhelo.github.io/project-survey/",
+        githubLink: "https://github.com/davidhelo/project-survey"
     },
     {
         title: "React App",
@@ -29,6 +29,15 @@ const projectDataBank = [
         description: "Responsive technical documentation webpage using HTML and CSS",
         liveLink: "https://davidhelo.github.io/project-technicalDocumentation/",
         githubLink: "https://github.com/davidhelo/project-technicalDocumentation"
+    },
+    {
+        title: "Business Webpage",
+        subtitle: "Spa Business Webpage",
+        image: "/images/Cosmelh-logo.png",
+        description: "Responsive Webpage for a small business. Cosmetology. Beauty and skincare.",
+        liveLink: "",
+        liveLink: "https://davidhelo.github.io/project-cosme",
+        githubLink: "https://github.com/davidhelo/project-cosme"
     }
 ];
 
