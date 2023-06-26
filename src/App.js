@@ -1,3 +1,8 @@
+import {useState} from 'react';
+import {Button} from 'primereact/button';
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';                 
+        
 import './App.css';
 import ProjectSection from './components/ProjectSection';
 
@@ -5,8 +10,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <img id="profile-pic"
+            src="/images/pictureSQ.jpeg"
+            alt="Picture"
+            width="150rem"
+      />
         <p>
-          Hi, This is my personal portfolio.
+          Hi, I'm David Hernandez
+        </p>
+        <p>
+          Full Stack Web Developer
         </p>
       </header>
       <p>Projects experience:</p>
@@ -19,8 +32,8 @@ function App() {
       >
         See GitHub profile
       </a>
-      <p>*The current portfolio is still in development.</p>
       <br></br>
+      <footer>By David Hernandez</footer>
     </div>
   );
 }
