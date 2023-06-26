@@ -10,13 +10,14 @@ function ProjectSection () {
 
     function generateFooter(linkLive, linkGitHub) { //it generates button depending if link is available
         return (<div>
-            {linkLive === "" ? <div></div> : <a href={linkLive} target='_blank'>
-                <Button type='button' label='See Live' severity='info' raised rounded />
-            </a> }
+            {linkLive == "" ? <div></div> : 
+                <a href={linkLive} target='_blank'>
+                    <Button type='button' label='See Live' severity='info' raised rounded />
+                </a> }
+            { linkGitHub == "" ? <div></div> : 
             <a href={linkGitHub} target='_blank'>
-                <Button type='button' label='See GitHub' severity='info'  raised rounded outlined />
-            </a>
-            
+                <Button type='button' label='See GitHub' severity='info' raised rounded outlined />
+            </a> }
         </div>);
     }
 
@@ -25,7 +26,6 @@ function ProjectSection () {
         return (
             <div>
                 <img 
-                    id="header1"
                     className='cropped-img'
                     src={imgPath}
                     alt="Picture"

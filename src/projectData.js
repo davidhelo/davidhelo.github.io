@@ -11,23 +11,24 @@ const projectDataBank = [
     {
         title: "React App",
         subtitle: "To Do List App",
-        image: "/images/usercard.png",
+        image: "/images/todolist.png",
         description: "React app: To-Do List. Add, mark as done or delete task in a tasks manager fully build with React Framework.",
-        liveLink: "http://github.com/davidhelo",
+        liveLink: "https://davidhelo.github.io/tasks_app/",
         githubLink: "https://github.com/davidhelo/tasks_app"
     },
     {
         title: "Web Scraper",
-        image: "/images/usercard.png",
+        image: "/images/scrapyPython.png",
         description: "Webscraper using Python and Scrapy Framework to scrap a Book Store. Items and pipelines were created to organise the information in JSON file.",
         liveLink: "",
-        githublink: "http://github.com/davidhelo/webscraper/"
+        githubLink: "https://github.com/davidhelo/webscraper"
     },
     {
-        title: "Landing product",
-        image: "/images/usercard.png",
-        description: "Web page 3, Landing product.",
-        liveLink: "http://github.com/davidhelo"
+        title: "Technical documentation page",
+        image: "/images/techDocs.png",
+        description: "Responsive technical documentation webpage using HTML and CSS",
+        liveLink: "https://davidhelo.github.io/project-technicalDocumentation/",
+        githubLink: "https://github.com/davidhelo/project-technicalDocumentation"
     }
 ];
 
