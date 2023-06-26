@@ -24,6 +24,14 @@ const projectDataBank = [
         githubLink: "https://github.com/davidhelo/webscraper"
     },
     {
+        title: "User authentication form",
+        subtitle: "PassportJS and MongoDB",
+        image: "/images/userauth.png",
+        description: "CRUD of Users for authentication with login and registration forms. Including third party authentication with GitHub.",
+        liveLink: "https://advancednode.davidhelo.repl.co/",
+        githubLink: "https://github.com/davidhelo/FCC-advancednode"
+    },
+    {
         title: "Technical documentation page",
         image: "/images/techDocs.png",
         description: "Responsive technical documentation webpage using HTML and CSS",
