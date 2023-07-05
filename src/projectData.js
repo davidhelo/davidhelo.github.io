@@ -12,9 +12,17 @@ const projectDataBank = [
         title: "React App",
         subtitle: "To Do List App",
         image: "/images/todolist.png",
-        description: "React app: To-Do List. Add, mark as done or delete task in a tasks manager fully build with React Framework.",
+        description: "React app: To-Do List. CRUD: Add, mark as done and delete task in a tasks manager fully build with React Framework.",
         liveLink: "https://davidhelo.github.io/tasks_app/",
         githubLink: "https://github.com/davidhelo/tasks_app"
+    },
+    {
+        title: "Golang API",
+        subtitle: "API using GO and PostgreSQL + PostGIS",
+        image: "/images/usercard.png",
+        description: "API and SQL query to retrive data from database. It returns places (spots) in a specific area based on request parameters: latitude, longitude, radius and shape (circle or square).",
+        liveLink: "",
+        githubLink: "https://github.com/davidhelo/test_backend"
     },
     {
         title: "Web Scraper",
