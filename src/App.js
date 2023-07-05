@@ -1,19 +1,23 @@
 import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.min.css';                 
+import 'primereact/resources/primereact.min.css';
+// import '../primeicons/primeicons.css';             
         
 import './App.css';
 import ProjectSection from './components/ProjectSection';
 import Stack from './components/Stack';
+import menuItems from './tabMenuItems';
+import { TabMenu } from 'primereact/tabmenu';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home-section">
     <div className="ripple-background"></div>
     <div className="circle xxlarge shade1"></div>
     <div className="circle xlarge shade2"></div>
     <div className="circle large shade3"></div>
     <div className="circle medium shade4"></div>
     <div className="circle small shade5"></div>
+    <TabMenu model={menuItems} />
       <header className="App-header">
       <img id="profile-pic"
             src="/images/pictureSQ.jpeg"
@@ -29,13 +33,17 @@ function App() {
       </header>
 
       <br></br>
-      <div className='p-stack'>
+      <div className='p-stack' id="stack-section">
         <p > Stack: </p>
         <Stack />
       </div>
+
       <br></br>
-      <p>Projects experience:</p>
-      <ProjectSection />
+      
+      <div id="projects-section">
+        <p>Projects experience:</p>
+        <ProjectSection />
+      </div>
       
       <br></br>
       <p>

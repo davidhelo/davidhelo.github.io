@@ -3,11 +3,27 @@
 .App {
   text-align: center;
   background-color: #272938;
-  font-size: calc(10px + 3vmin);
+  font-size: calc(15px + 3vmin);
   font-family: 'Kanit', sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
+
+.p-tabmenu {
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  text-align: right;
+}
+.p-tabmenu-nav{
+  display:inline-flex;
+  margin-right: 3px;
+}
+
+.p-tabmenuitem, .p-menuitem-link {
+  background-color: #272938 !important;
+}
+
 
 .p-name{
   font-family: 'Caprasimo', cursive;
@@ -105,7 +121,7 @@
 
 /*ANIMATION CSS*/
 
-:not(.circle){
+:not(.circle, .p-tabmenu){
   z-index: 3;
 }
 
