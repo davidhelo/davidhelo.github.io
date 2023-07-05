@@ -11,7 +11,9 @@ function Stack() {
 
     return (
         <div className="stackSection">
-            {images}
+            <div className="stack-images-container">
+                {images}
+            </div>
         </div>
     );
 }

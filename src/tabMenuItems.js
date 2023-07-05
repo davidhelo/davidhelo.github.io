@@ -1,19 +1,21 @@
 const menuItems = [
     {
         id: "HomeTab", 
-        label:"Home", 
+        label:"HOME", 
         url:"#home-section",
         icon: "pi pi-fw pi-home"
     }, 
     {
         id: "StackTab", 
-        label:"Stack", 
-        url:"#stack-section"
+        label:"STACK", 
+        url:"#stack-section",
+        icon:"pi pi-fw pi-wrench"
     },
     {
         id: "ProjectTab", 
-        label:"Project", 
-        url:"#projects-section"
+        label:"PROJECTS", 
+        url:"#projects-section",
+        icon: "pi pi-fw pi-briefcase"
     }
 ]
 
