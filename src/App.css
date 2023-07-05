@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Kanit&display=swap');
+
 .App {
   text-align: center;
   background-color: #272938;
   font-size: calc(10px + 3vmin);
+  font-family: 'Kanit', sans-serif;
   color: white;
   scroll-behavior: smooth;
+}
+
+.p-name{
+  font-family: 'Caprasimo', cursive;
 }
 
 #profile-pic {
@@ -74,7 +81,11 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
+.p-stack {
+  color: #272938;
+  background-color: white;
+  z-index: 3;
+}
 .imgStack {
   padding: 0;
   margin: 1.5rem;
@@ -90,4 +101,91 @@
 
 .p-button {
   margin: 0.2rem;
+}
+
+/*ANIMATION CSS*/
+
+:not(.circle){
+  z-index: 3;
+}
+
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: ripple 15s infinite;
+  box-shadow: 0px 0px 1px 0px #508fb9;
+  z-index: 1;
+}
+
+.small{
+  width: 8rem;
+  height: 8rem;
+  left: -4rem;
+  bottom: -4rem;
+  z-index: 1;
+}
+
+.medium{
+  width: 12rem;
+  height: 12rem;
+  left: -6rem;
+  bottom: -6rem;
+  z-index: 1;
+}
+
+.large{
+  width: 16rem;
+  height: 16rem;
+  left: -8rem;
+  bottom: -8rem;
+  z-index: 1;
+}
+
+.xlarge{
+  width: 22rem;
+  height: 22rem;
+  left: -12rem;
+  bottom: -12rem;
+  z-index: 1;
+}
+
+.xxlarge{
+  width: 26rem;
+  height: 26rem;
+  left: -14rem;
+  bottom: -14rem;
+}
+
+.shade1{
+  opacity: 0.1;
+}
+.shade2{
+  opacity: 0.3;
+}
+
+.shade3{
+  opacity: 0.5;
+}
+
+.shade4{
+  opacity: 0.8;
+}
+
+.shade5{
+  opacity: 0.9;
+}
+
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+  }
+  
+  50%{
+    transform: scale(1.5);
+  }
+  
+  100%{
+    transform: scale(0.8);
+  }
 }
