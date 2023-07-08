@@ -19,11 +19,11 @@ function App() {
     <div className="circle small shade5"></div>
     <TabMenu model={menuItems} />
       <header className="App-header">
-      <img id="profile-pic"
+      {/* <img id="profile-pic"
             src="/images/pictureSQ.jpeg"
             alt="Picture"
             width="180rem"
-      />
+      /> */}
         <p>
           Hi, I'm <span className='p-name'>David Hernandez</span>
         </p>
